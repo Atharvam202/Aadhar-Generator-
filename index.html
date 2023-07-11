@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMK ENTERPRISES JOB APPLICATION FORM </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>AADHAR CARD GENERATOR 
+                <span class="title_small">(web)</span>
+            </h1>
+            <form action="front.html">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">NAME</label>
+                        <input 
+                         id="first_name"
+                         type="text"
+                         placeholder="ENTER FIRST NAME..."
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="last_name">MOBILE NUMBER</label>
+                        <input 
+                         id="mobile"
+                         name="last_name" 
+                         placeholder="ENTER MOBILE NUMBER..."
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="email">EMAIL</label>
+                        <input 
+                         type="email"
+                         id="email"
+                         name="email" 
+                         placeholder="ENTER EMAIL"
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="gender"> GENDER </label>
+                        <input 
+
+                        id = "gender" 
+                        placeholder="GENDER"
+                        />
+                    </div>
+                    <div class="textarea_control">
+                        <label for="Address">ADDRESS</label>
+                        <textarea  
+                        id="Address" 
+                        name="Address" 
+                        cols="50" 
+                        rows="4" 
+                        placeholder="ENRER ADDRESS">
+                    </textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="City">CITY</label>
+                        <input 
+                         type="City"
+                         id="City"
+                         name="City" 
+                         placeholder="ENTER CITY"
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="Pincode">PINCODE</label>
+                        <input 
+                         type="number"
+                         id="Pincode"
+                         name="Pincode" 
+                         placeholder="ENTER PINCODE"
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="date"> DATE OF BIRTH </label>
+                        <input
+                         type=" date"
+                         id="date"
+                         name=" date" 
+                         placeholder="ENTER DATE"
+                         />
+                    </div>
+                    <div class="form_control">
+                        <label for="Upload"> AADHAR NUMBER </label>
+                        <input
+                         type=" number "
+                         id="aadhar"
+                         name=" date"
+                         placeholder="ENTER AADHAR NUMBER"
+
+                         />
+                </div>
+                
+                <input type="submit" class="btn" value = "generate" id ="save_value" onclick="save ()" >
+            
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

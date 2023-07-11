@@ -1,0 +1,1 @@
+document.getElementById("name_value").innerHTML=localStorage.getItem("textvalue");
